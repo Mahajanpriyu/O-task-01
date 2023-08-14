@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lan.css">
+    <title>Product landing page </title>
+</head>
+<body>
+    <section> 
+        <div class="circle"> </div>
+    <header>
+       <a href="#" class="logo"><img src="logo.jpg"></a>
+
+       <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">product</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contacts</a></li>
+    </ul>
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h1><span> Hello guys </span> &#128522;</h1>
+         <h3>Are you ready to <span>lead </span>the way?</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga officiis sequi, voluptatibus facilis porro deserunt. Possimus quisquam rerum, nulla similique adipisci atque maiores, id nemo minus, voluptas vitae eligendi fugiat!</p>
+         <a href="#">Buy Now</a>
+        </div>
+        <div class="imgBox">
+            <img src="pic.jpg" class="adidas">
+        </div>
+    </div>
+        <ul class="digital">
+            <li><img src="l1.jpg" onclick="imgSlider('l1 .png.jpg');  "></li>
+            <li><img src="w1.jpeg" onclick="imgSlider('w1 .png.jpeg'); "></li>
+            <li><img src="l2.jpg" onclick="imgSlider('l2 .png.jpg');  "></li>
+            <li><img src="p4.jpg" onclick= "imgSlider('p4 .png.jpg');  "></li>
+        </ul>
+      </section>    
+      <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.adidas').src= anything;
+        }
+      
+      </script>      
+</body>
+</html>
